@@ -11,16 +11,16 @@ namespace PolloPersonal
     {
         static void Main(string[] args)
         {
-            Coche auto1 = new Coche(23,"Peugeot","208",0,2370000);
+            Coche auto1 = new Coche(23,"Peugeot","208",0,2370000);            
             Console.WriteLine(auto1);
 
             Coche auto2 = new Coche();
 
             auto2.IdCoche = 367;
-            auto2.MarcaCoche = "Wolksvagen";
-            auto2.ModeloCoche = "Gol";
+            auto2.MarcaCoche = "Ford";
+            auto2.ModeloCoche = "Falcon";
             auto2.KmCoche = 356455;
-            auto2.PrecioCoche = 3777777.255F;
+            auto2.PrecioCoche = 5777777.255F;
 
             string modeloAuto2 = auto2.ModeloCoche;
             Console.WriteLine(modeloAuto2 + "\n");           

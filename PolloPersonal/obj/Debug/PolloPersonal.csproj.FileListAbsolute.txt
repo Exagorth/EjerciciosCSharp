@@ -5,3 +5,10 @@ D:\Road to PRO\Pollo\PolloPersonal\obj\Debug\PolloPersonal.csproj.AssemblyRefere
 D:\Road to PRO\Pollo\PolloPersonal\obj\Debug\PolloPersonal.csproj.CoreCompileInputs.cache
 D:\Road to PRO\Pollo\PolloPersonal\obj\Debug\PolloPersonal.exe
 D:\Road to PRO\Pollo\PolloPersonal\obj\Debug\PolloPersonal.pdb
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\bin\Debug\PolloPersonal.exe.config
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\bin\Debug\PolloPersonal.exe
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\bin\Debug\PolloPersonal.pdb
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\obj\Debug\PolloPersonal.csproj.AssemblyReference.cache
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\obj\Debug\PolloPersonal.csproj.CoreCompileInputs.cache
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\obj\Debug\PolloPersonal.exe
+D:\Road to PRO\Pollo\EjerciciosCSharp\PolloPersonal\obj\Debug\PolloPersonal.pdb
