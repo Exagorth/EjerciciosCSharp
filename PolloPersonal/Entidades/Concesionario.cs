@@ -10,26 +10,26 @@ namespace PolloPersonal.Entidades
     {
         private Coche[] MisCoches;
         private int Cantidad;
-        private int numeroCoches;
+        private int NumeroCoches;
 
         public Concesionario(int cantidadCoches) //constructor al cual le paso como parametro la dimension del arreglo
         {
             this.MisCoches = new Coche[cantidadCoches];
             Cantidad = cantidadCoches;
-            numeroCoches = 0;                       
+            NumeroCoches = 0;                       
         }
 
         public void AgregarCoche(Coche coche)
         //verifico que el objeto coche no este vacio y que el numero de conche que voy a meter no supere la dimension del array.
         {
-            if (coche != null && numeroCoches < MisCoches.Length)
+            if (coche != null && NumeroCoches < MisCoches.Length)
             {
                 for (int i = 0; i < MisCoches.Length; i++)
                 {
                     if (MisCoches[i] == null)
                     {
                         MisCoches[i] = coche;
-                        numeroCoches++;
+                        NumeroCoches++;
                         break;
                     }
                 }
@@ -51,16 +51,16 @@ namespace PolloPersonal.Entidades
         public void VaciarConches() 
         {
             this.MisCoches = new Coche[Cantidad];
-            numeroCoches = 0;
+            NumeroCoches = 0;
         }
 
         public void eliminarCoche(Coche coche)
         {
-            if (coche != null && numeroCoches != 0) 
+            if (coche != null && NumeroCoches != 0) 
             {
                 int posicion = -1;
                 
-                for(int i = 0; i < numeroCoches; i++)
+                for(int i = 0; i < NumeroCoches; i++)
                 {
                     if(coche.IdCoche == MisCoches[i].IdCoche)
                     {
@@ -77,7 +77,7 @@ namespace PolloPersonal.Entidades
                 else
                 {
                     MisCoches[posicion] = null;
-                    numeroCoches--;
+                    NumeroCoches--;
                 }
             }
         }

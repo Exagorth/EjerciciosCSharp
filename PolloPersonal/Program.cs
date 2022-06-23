@@ -11,7 +11,7 @@ namespace PolloPersonal
     {
         static void Main(string[] args)
         {
-            Coche auto1 = new Coche(23,"Peugeot","208",0,2370000);            
+            /*Coche auto1 = new Coche(23,"Peugeot","208",0,2370000);            
             
             Coche auto2 = new Coche();
 
@@ -61,7 +61,16 @@ namespace PolloPersonal
             Console.ReadLine();
             nuevaConce.VaciarConches();
             Console.ReadLine();
-            nuevaConce.mostrarCoches();
+            nuevaConce.mostrarCoches();*/
+
+            Aleatorios prueba = new Aleatorios();
+            Console.WriteLine("Ingrese cota inferior: ");
+            int cotaInf = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese cota Superior: ");
+            int cotaSup = int.Parse(Console.ReadLine());
+            prueba.GenerarNumeroAleatorio(cotaInf, cotaSup);
+            Console.WriteLine(prueba.ObtenerNumeroRandom);
+            Console.ReadLine();
         }
     }
 }
